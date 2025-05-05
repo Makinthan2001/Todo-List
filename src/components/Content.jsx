@@ -22,6 +22,11 @@ const Content = () => {
   }
 
   function handleAddorSave(id) {
+    if (newData1.trim() === "" || newData2.trim() === "") {
+      alert("Please fill in both Name and Phone No.");
+      return;
+    }
+
     if (Editing) {
       setdata(
         data.map((data) => {
@@ -30,10 +35,10 @@ const Content = () => {
             : data;
         })
       );
-      setEditing(false)
-      setCurrId(null)
-      setNewData1("")
-      setNewData2("")
+      setEditing(false);
+      setCurrId(null);
+      setNewData1("");
+      setNewData2("");
     } else {
       setdata([
         ...data,
