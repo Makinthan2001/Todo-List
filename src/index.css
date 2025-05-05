@@ -1,0 +1,78 @@
+header{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container .card {
+  border-radius: 15px;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.137);
+  padding: 20px;
+}
+
+.box2 {
+  border-radius: 8px;
+  border: 1px solid #96999c;
+}
+
+
+form .box2:focus {
+  outline: none;
+  border-color: #2d7cd6;
+  box-shadow:none;
+}
+
+.btn-primary {
+  width: 100%;
+  border-radius: 8px !important;
+}
+
+
+.box1 {
+  transition: transform 0.3s ease;
+}
+
+.box1:hover {
+  transform: scale(1.01);
+}
+
+.box3 {
+  transition: transform 0.3s ease;
+  width: 100%; 
+  min-height: 150px;
+  padding: 5px;
+}
+.card-body b,.card-body p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem; 
+  word-break: break-word;
+  text-align: center;
+}
+
+
+.box3:hover {
+  transform: scale(1.02);
+}
+
+.editbtn{
+  transition: transform 0.3s ease;
+  font-size: 1.6rem;
+  outline: none;
+}
+.editbtn:hover{
+  transform: scale(1.2);
+  color: #278cff !important;
+}
+.delbtn{
+  transition: transform 0.3s ease;
+  font-size: 1.4rem;
+  outline: none;
+}
+.delbtn:hover{
+  transform: scale(1.2);
+  color: rgb(253, 63, 63) !important;
+}
+
+
+
+
